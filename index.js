@@ -20,7 +20,7 @@ app.get("/",(req,res)=>{
     res.send("ok")
 })
 
-app.listen(process.env.port,async()=>{
+app.listen(7070,async()=>{
 
     try {
         await connection
